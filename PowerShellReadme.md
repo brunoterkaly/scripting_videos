@@ -17,5 +17,5 @@ Write-Host "PowerShell"
 
 ## Some resources to learning the Visual Studio Code Debugger.
 
-[YouTube Debugging Videos](https://www.youtube.com/results?search_query=using+the+visual+studio+debugger)
+[YouTube Debugging Videos](https://www.youtube.com/results?search_query=using+the+visual+studio+debugger
 

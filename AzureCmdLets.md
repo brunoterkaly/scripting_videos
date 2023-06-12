@@ -12,3 +12,21 @@ Import-Module -Name Az
 # Set the execution policy to "RemoteSigned"
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
+
+
+# Source Code
+
+```
+#!/bin/bash
+
+# Run the az vm list command and store the output in a variable
+vms=$(az vm list --output table)
+
+# Loop through each line of the output
+while IFS= read -r line; do
+  # Process each line as needed
+  echo "Processing VM: $line"
+  # Add your own logic here to handle each line of output
+
+done <<< "$vms"
+```
